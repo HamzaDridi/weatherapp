@@ -1,0 +1,70 @@
+.container {
+    padding: 40px;
+    color: white;
+}
+
+.header {
+    font-size: 3.5em;
+}
+
+#location {
+    font-size: 1.7em;
+}
+
+#weatherName {
+    font-size: 1.8em;
+}
+
+#weathericon {
+   
+    height: 20vh;
+}
+
+.Temperature {
+    font-size: 4em;
+    padding: 20px;
+}
+
+body {
+    background: linear-gradient(309deg, #ccad05, #10f3b9, #f34410, #f310b8);
+    background-size: 800% 800%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 9%
+    }
+    50% {
+        background-position: 100% 92%
+    }
+    100% {
+        background-position: 0% 9%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 9%
+    }
+    50% {
+        background-position: 100% 92%
+    }
+    100% {
+        background-position: 0% 9%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 9%
+    }
+    50% {
+        background-position: 100% 92%
+    }
+    100% {
+        background-position: 0% 9%
+    }
+}
